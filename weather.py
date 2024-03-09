@@ -6,4 +6,4 @@ weather_json=response.json()
 
 temp=weather_json.get('current').get('temp_f')
 descprition=weather_json.get('current').get('condition').get('text')
-print("Today's weather of",city,'is',descprition,'and temperature is',temp,'degree farenheit')
+print("Today's weather of",city,'is',descprition,'and temperature is',temp,'degree fahrenheit')
